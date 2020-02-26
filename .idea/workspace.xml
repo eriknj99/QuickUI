@@ -2,9 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="904bce80-701c-4fc5-8872-00086531931f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/eriknj99/quickui/layout/Container.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/eriknj99/quickui/layout/Layout.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/eriknj99/quickui/layout/Component.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/eriknj99/quickui/layout/LayoutItem.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/eriknj99/quickui/layout/Layout.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/eriknj99/quickui/layout/Layout.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,6 +24,9 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1XsYRht2jqGBSvI7OPc3sOiK08Y" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -59,7 +63,19 @@
       <option name="presentableId" value="Default" />
       <updated>1581836262718</updated>
     </task>
+    <task id="LOCAL-00001" summary="Created base Layout classes">
+      <created>1582692770893</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1582692770893</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Created base Layout classes" />
+    <option name="LAST_COMMIT_MESSAGE" value="Created base Layout classes" />
   </component>
   <component name="WindowStateProjectService">
     <state x="416" y="154" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1581836904419">
@@ -74,6 +90,10 @@
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="760" y="137" width="378" height="581" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1080@0.0.1920.1080" timestamp="1581873391936" />
+    <state x="357" y="28" width="1199" height="1043" key="CommitChangelistDialog2" timestamp="1582692770818">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="357" y="28" width="1199" height="1043" key="CommitChangelistDialog2/0.0.1920.1080@0.0.1920.1080" timestamp="1582692770818" />
     <state x="715" y="-23" width="432" height="505" key="FileChooserDialogImpl" timestamp="1581893869527">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
@@ -118,10 +138,14 @@
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="779" y="185" width="984" height="724" key="SettingsEditor/0.0.1920.1080@0.0.1920.1080" timestamp="1581893790268" />
-    <state x="553" y="228" width="804" height="530" key="Vcs.Push.Dialog.v2" timestamp="1582692648521">
+    <state x="551" y="206" width="804" height="530" key="Vcs.Push.Dialog.v2" timestamp="1582692783380">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="553" y="228" width="804" height="530" key="Vcs.Push.Dialog.v2/0.0.1920.1080@0.0.1920.1080" timestamp="1582692648521" />
+    <state x="551" y="206" width="804" height="530" key="Vcs.Push.Dialog.v2/0.0.1920.1080@0.0.1920.1080" timestamp="1582692783380" />
+    <state x="679" y="272" width="551" height="443" key="git4idea.merge.GitPullDialog" timestamp="1582692775513">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="679" y="272" width="551" height="443" key="git4idea.merge.GitPullDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1582692775513" />
     <state x="623" y="219" width="672" height="678" key="search.everywhere.popup" timestamp="1581871090134">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
